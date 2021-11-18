@@ -1,6 +1,6 @@
 # Todo List by IRT Project
 
-Used technologies:
+## Used technologies:
  - React
  - React-router-dom
  - Redux
@@ -8,3 +8,7 @@ Used technologies:
  - Browser-image-compression
  - Firebase
  - Ant Design
+
+##Changelog:
+### 29.10.2021
+ - Инициализация проекта
