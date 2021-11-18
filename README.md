@@ -5,11 +5,10 @@
  - React-router-dom
  - Redux
  - Redux-thunk
- - Browser-image-compression
  - Firebase
  - Ant Design
 
-##Changelog:
+## Changelog:
 ### 29.10.2021
  - Инициализация проекта (Пацбк В.)
 ### 30.10.2021 - 01.11.2021
