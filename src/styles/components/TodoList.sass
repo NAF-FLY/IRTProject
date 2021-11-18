@@ -1,0 +1,47 @@
+@import '../variables'
+@import '../breakpoints'
+
+.todo-list
+  display: flex
+  flex-direction: column
+  width: 100%
+  padding: 60px
+  transition: $main-transition
+  +media('<=tablet')
+    padding: 40px
+  +media('<=phone')
+    padding: 16px
+
+/* Header */
+.todo-list__header
+  margin-bottom: 24px
+  display: flex
+  align-items: center
+  justify-content: space-between
+  +media('<=phone')
+    margin-bottom: 12px
+
+.todo-list__title
+  padding: 0 10px
+  font-size: 36px
+  font-weight: 700
+  margin-bottom: 0
+  +media('<=tablet')
+    font-size: 32px
+
+  +media('<=phone')
+    font-size: 24px
+    padding-left: 24px
+
+.todo-list__dropdown-icon
+  padding: 10px
+  font-size: 20px
+  cursor: pointer
+  +media('<=phone')
+    padding: 8px
+    font-size: 18px
+
+.todo-list__items
+  padding: 0
+  list-style: none
+  overflow: auto

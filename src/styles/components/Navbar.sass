@@ -1,0 +1,40 @@
+@import '../variables'
+@import '../breakpoints'
+
+.navbar
+  height: 100%
+  z-index: 2
+
+.navbar__sider
+  flex: 1
+  min-height: 100%
+
+.navbar__sider .ant-menu-inline-collapsed > .ant-menu-item .anticon
+  font-size: 18px
+
+.navbar__menu
+  max-height: calc(100vh - 150px)
+  overflow: auto
+
+.navbar__menu-item.ant-menu-item
+  height: 45px !important
+  line-height: 45px !important
+
+.navbar__menu-item.ant-menu-item .anticon
+  font-size: 18px
+
+.navbar__menu-text
+  font-size: 18px
+  +media('<=phone')
+    font-size: 16px
+
+.navbar__menu-separator
+  opacity: .2
+
+.navbar__user
+  padding: 12px
+  padding-top: 24px
+
+@media screen and ( max-width: 990px  )
+  .navbar
+    position: absolute

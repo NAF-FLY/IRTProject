@@ -1,0 +1,48 @@
+@import '../breakpoints'
+
+.auth-page
+  display: flex
+  align-items: center
+  justify-content: center
+  height: 100vh
+  padding: 0 16px
+
+.auth-page__inner
+  padding: 40px
+  width: 100%
+  max-width: 400px
+  display: flex
+  align-items: center
+  flex-direction: column
+  animation: fadeInUp 1s
+  +media('<=phone')
+    padding: 24px 16px
+
+.auth-page__subtitle
+  font-size: 20px
+
+.auth-form
+  width: 100%
+
+.auth-form__btn-wrap
+  margin-bottom: 24px
+
+.auth-form__btn
+  width: 100%
+
+.auth-form__social-auth
+  margin-bottom: 24px
+  display: flex
+  align-items: center
+  justify-content: space-around
+
+@keyframes fadeInUp
+  from
+    opacity: 0
+    -webkit-transform: translate3d(0, 20%, 0)
+    transform: translate3d(0, 20%, 0)
+
+  to
+    opacity: 1
+    -webkit-transform: translate3d(0, 0, 0)
+    transform: translate3d(0, 0, 0)
