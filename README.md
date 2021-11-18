@@ -4,7 +4,7 @@
 https://new-project-dc289.web.app/
 
 ## Manual & Screenshots
-https://2ip3.short.gy/pL8zNR
+https://clck.ru/Yudus
 
 ## Used technologies:
  - React
