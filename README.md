@@ -1,4 +1,4 @@
-# iNeed
+# Todo List by IRT Project
 
 Used technologies:
  - React
