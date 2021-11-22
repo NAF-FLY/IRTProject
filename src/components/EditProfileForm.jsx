@@ -55,6 +55,9 @@ export const EditProfileForm = ({
           >
             Upload new photo
           </InputFile>
+          <span className='alert'>
+            Поддерживаемый формат файлов: .png, .jpg, .jpeg
+          </span>
         </div>
       </Form.Item>
     </Form>
